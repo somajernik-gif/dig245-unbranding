@@ -1,2 +1,96 @@
 
 /* css */
+.hoverImage {
+  background-image: url(../img/linkedin-logo.png);
+  width: 200px;
+  height: 60px;
+}
+
+.hoverImage:hover {
+  background-image: url(../img/linkedout-logo.png);
+  cursor: pointer;
+}
+body {
+  margin: 0;
+  background-color: #f3f2ef;
+font-family: "Roboto", Arial, sans-serif;
+}
+
+.header {
+  background-color: white;
+  padding: 15px 3%;
+}
+
+.hoverImage {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navigation {
+  display: inline-block;
+  vertical-align: middle;
+  width: 75%;
+  text-align: right;
+  color: #555555;
+  font-size: 18px;
+}
+
+.company {
+  width: 80%;
+  margin: 50px auto 40px;
+  background-color: white;
+}
+
+.banner {
+  height: 110px;
+  background-color: #0a66c2;
+}
+
+.companyText {
+  padding: 35px 40px 60px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.description {
+  font-size: 24px;
+  margin: 20px 0 40px;
+}
+
+button {
+  background-color: #0a66c2;
+  color: white;
+font-family: "Roboto", Arial, sans-serif;
+  font-size: 20px;
+  border: none;
+  padding: 15px 50px;
+  cursor: pointer;
+}
+
+.post {
+  width: 80%;
+  margin: 0 auto 60px;
+  background-color: white;
+}
+
+h2 {
+  margin: 0;
+  padding: 35px 40px 0;
+  font-size: 20px;
+}
+
+.postText {
+  margin: 0;
+  padding: 50px 40px 70px;
+  font-size: 32px;
+}
+
+.postActions {
+  margin: 0;
+  padding: 0 40px 40px;
+  font-size: 16px;
+  color: #555555;
+}
